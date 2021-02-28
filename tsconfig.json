@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es2019",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": [
+      "ES2019", "esnext.asynciterable"
+    ],
+    "forceConsistentCasingInFileNames": false,
+  },
+  "include": [
+    "./src"
+  ]
+}
