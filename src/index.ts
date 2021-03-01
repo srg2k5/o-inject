@@ -49,7 +49,7 @@ export async function injectObject (
   subject: any,
   wrappers: Wrappers = { left: leftWrapper, right: rightWrapper }
 ) {
-  const outputObject = {}
+  const outputObject: any = {}
 
   for (const [key, entry] of Object.entries(subject)) {
     outputObject[key] = await checkEntry(injectables, entry, wrappers)
