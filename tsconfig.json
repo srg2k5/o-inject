@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
+    "declarationDir": "./declarations",
     "module": "commonjs",
     "target": "es2019",
     "sourceMap": true,
@@ -10,6 +11,8 @@
       "ES2019", "esnext.asynciterable"
     ],
     "forceConsistentCasingInFileNames": false,
+    "declaration": true,
+    "declarationMap": true
   },
   "include": [
     "./src"

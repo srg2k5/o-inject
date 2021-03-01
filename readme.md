@@ -8,7 +8,6 @@ Purpose:   Provide a scoped Javascript Object with functions, and promise resolu
 ```javascript
 import oInject from 'o-inject'
 
-
 const testInjectables = {
   string: 123,
   promise: Promise.resolve(123),

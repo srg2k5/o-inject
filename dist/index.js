@@ -3,7 +3,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.setDefaultWrapper = exports.withDefaultWrapper = exports.injectObject = exports.isInjectableTemplate = void 0;
 const eval_1 = __importDefault(require("eval"));
 let leftWrapper = 'oi{{';
 let rightWrapper = '}}';
